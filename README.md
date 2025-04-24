@@ -1,36 +1,37 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+![Imagem de capa escrito  Next.js: gerando site estático com SSG, maximizando a performance com SSG](./thumbnail.png)
 
-## Getting Started
+![](https://img.shields.io/github/license/alura-cursos/android-com-kotlin-personalizando-ui)
 
-First, run the development server:
+# Meteora
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Uma aplicação que simula um e-commerce de produtos, onde contem a página inicial que lista todos os produtos e a página de detalhes de cada produto.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🔨 Funcionalidades do projeto
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+O aplicativo consiste em duas páginas principais: a primeira lista produtos e categorias, enquanto a segunda exibe detalhes específicos de cada produto. Atualmente, esta última é uma página gerada no lado do servidor, utilizando rotas dinâmicas. Até agora, os produtos foram simulados de maneira básica. Contudo, ao longo do curso, implementaremos estratégias para gerar páginas estáticas, consumindo API externa.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## ✔️ Técnicas e tecnologias utilizadas
 
-## Learn More
+As principais técnicas e tecnologias abordadas são:
 
-To learn more about Next.js, take a look at the following resources:
+- `Next.js`: Framework para React com recursos de SSG.
+- `Fetch API`: Realizar requisições HTTP para buscar dados.
+- `React Components`: Componentes reutilizáveis.
+- `Web server`: Como hospedar o site.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🎯 Desafios do Curso
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- O principal desafio será converter as rotas dinâmicas da página de detalhes do produto em páginas estáticas exportadas.
 
-## Deploy on Vercel
+## 🛠️ Abrir e rodar o projeto
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Após baixar o projeto, você pode abrir com seu editor de código preferido. Siga estes passos:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Abra o terminal no diretório do projeto.
+- Execute `yarn` para instalar as dependências.
+- Inicie o servidor de desenvolvimento com `yarn dev`.
+- Acesse `http://localhost:3000` no navegador para ver o projeto.
+
+## 📚 Mais Informações do Curso
+
+Interessado em aprofundar seus conhecimentos em Next.js e SSR? [Acesse o curso]()!
